@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+	font-family: "Times New Roman", Helvetica, sans-serif;
+}
+#container{
+width: 1000px;
+margin: 0 auto;
+}
+.todo-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 3px;
+	border: 1px solid #c2c2c2;
+}
+.todo-header{
+padding: 40px;
+background: #efefef;
+}
+.todo-content{
+	margin: 10px 0 0 0;
+	font-family: "Roboto", Helvetica, sans-serif;
+}
+form.todo-form input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #ffffff;
+  }
+  
+form.todo-form button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #16bd3f;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+  }
+  
+form.todo-form button:hover {
+	background: #0bb414;
+  }
+  
+form.todo-form::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+table, th, td {  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+}  
+th, td {
+    padding: 3px;
+}
+.wcome,.btn-td{
+	text-align: center;	  
+}
+
+
+.todo-content{
+	display: flex;
+	flex-direction: column;
+}
+.th1{
+	flex-grow: 1;
+	width: 4%;
+}
+.th2{
+	flex-grow: 3;
+}
+.th3{
+	width: 180px;
+	
+}
+.th4{
+	width: 100px;
+}
+.t_name{
+	padding-left: 10px;
+}
+
+.btn-edit {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 6px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.btn-delete {
+	background-color: #da1010;
+	border: none;
+	color: white;
+	padding: 6px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+/* fsdfdf */
